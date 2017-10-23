@@ -1,7 +1,8 @@
 // pure function
 const numbers = [1, 5, 8, 10, 21]
-const numbersPlusOne = numbers.map(num => num + 1)
-console.log(numbersPlusOne)  // [2, 6, 9, 11, 22]
+const createAddingFunction = number => arr => arr.map(num => num + number)
+const numbersPlusOne = createAddingFunction(1)
+console.log(numbersPlusOne(numbers))  //[2, 6, 9, 11, 22]
 console.log(numbers)  // [1, 5, 8, 10, 21]
 
 
