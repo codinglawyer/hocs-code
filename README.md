@@ -1,0 +1,1 @@
+## Various versions of the source code to my talks and blog post dealing with the higher-order components and functional programming in React
